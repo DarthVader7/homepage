@@ -135,11 +135,19 @@ footer p {
         margin-top: 0;
     }
 
-    .img-left {
+    .img-left1 {
         float: left;
         margin-right: 25px;
         width: 241px;
         height: 228px;
+        
+    }
+
+    .img-left2 {
+        float: left;
+        margin-right: 25px;
+        width: 210px;
+        height: 80px;
         
     }
 
