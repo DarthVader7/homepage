@@ -163,9 +163,11 @@ footer p {
 
     .img-left3 {
         float: left;
-        margin-right: 25px;
+        margin-left: 25px;
+        padding-left: 5px;
+        padding-right: 30px;
         width: 200px;
-        height: 200px;
+        height: 140px;
         
     }
 
