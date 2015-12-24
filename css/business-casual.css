@@ -101,7 +101,17 @@ hr {
     border: #999999 solid 1px;
 }
 
-.img-left {
+.img-left1 {
+    float: none;
+    margin: 0 auto 0;
+}
+
+.img-left2 {
+    float: none;
+    margin: 0 auto 0;
+}
+
+.img-left3 {
     float: none;
     margin: 0 auto 0;
 }
@@ -146,8 +156,16 @@ footer p {
     .img-left2 {
         float: left;
         margin-right: 25px;
-        width: 210px;
+        width: 200px;
         height: 80px;
+        
+    }
+
+    .img-left3 {
+        float: left;
+        margin-right: 25px;
+        width: 200px;
+        height: 200px;
         
     }
 
