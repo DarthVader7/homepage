@@ -116,6 +116,11 @@ hr {
     margin: 0 auto 0;
 }
 
+.img-left4 {
+    float: none;
+    margin: 0 auto 0;
+}
+
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
@@ -148,8 +153,8 @@ footer p {
     .img-left1 {
         float: left;
         margin-right: 25px;
-        width: 241px;
-        height: 228px;
+        width: 223px;
+        height: 200px;
         
     }
 
@@ -161,6 +166,13 @@ footer p {
         
     }
 
+    .img-left4 {
+        float: left;
+        margin-right: 25px;
+        width: 200px;
+        height:175px;
+        
+    }
     .img-left3 {
         float: left;
         margin-left: 25px;
