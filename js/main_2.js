@@ -224,7 +224,7 @@ jQuery(document).ready(function($){
 	}
 
 	function daydiff(first, second) {
-	    return Math.round((second-first));
+	    return Math.abs(Math.round((second-first)));
 	}
 
 	function minLapse(dates) {
