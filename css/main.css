@@ -182,7 +182,7 @@
 }
 
 .search i{
-  color: #00aeef;
+  color: #4682B4;
   cursor: pointer;
   position: absolute;
   right: 10px;
@@ -204,7 +204,7 @@
   color: #818285;
   font-weight: 300;
   outline: none;
-  border: 1px solid #00aeef;
+  border: 1px solid #4682B4;
   margin-top: 20px;
   border-radius: 4px;
 }
@@ -227,6 +227,10 @@
 
 .social-icons ul li a:hover .fa-facebook {
   color:#3B5998;
+}
+
+.social-icons ul li a:hover .fa-github {
+  color:#444444;
 }
 
 .social-icons ul li a:hover .fa-twitter {
@@ -274,11 +278,13 @@
   margin-right: 20px;
 }
 
+
 #header .navbar-nav.navbar-right >li a {
   color: #000;
-  font-size: 12px;
+  font-family: 'Open Sans';
+  font-size: 1.7rem;
   padding: 20px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 300;
 }
 
@@ -289,11 +295,12 @@
 .navbar-inverse .navbar-nav > .open > a {
   background-color: inherit;
   border: 0;
-  color: #00aeef;
+  color: #4682B4;
+
 }
 
 #header .navbar-inverse .navbar-nav  li a:hover{
-  color: #00aeef;
+  color: #4682B4;
 }
 
 
@@ -315,7 +322,7 @@ ul.sub-menu {
 }
 
 #header .navbar-nav li ul.sub-menu li .active{
-  background: #00aeef;
+  background: #4682B4;
   color: #fff;
   position: relative;
 }
@@ -337,7 +344,7 @@ ul.sub-menu {
 
 #header .navbar-nav li ul.sub-menu li a:hover,
 #header .navbar-nav li ul.sub-menu li a:focus{
-  background: #00aeef;
+  background: #4682B4;
   color: #fff;
 }
 
@@ -633,7 +640,7 @@ ul.sub-menu {
   font-size: 48px;
   height: 48px;
   line-height: 48px;
-  color: #00aeef;
+  color: #4682B4;
   position: absolute;
   left: 50%;
   margin-left: -24px;
@@ -797,6 +804,10 @@ ul.sub-menu {
 
 .person-thumb {
   position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 85%;
 }
 
 .person-thumb img {
@@ -908,7 +919,7 @@ ul.sub-menu {
 
 .count h1{
   font-size: 60px;
-  color: #00aeef;
+  color: #4682B4;
 }
 
 .count h3{
@@ -952,7 +963,7 @@ h3.top-zero{
 }
 
 .progress-bar.progress-bar-primary{
-  background: #00aeef;
+  background: #4682B4;
 }
 
 
@@ -1965,7 +1976,7 @@ span.stButton_gradient,
 }
 
 #map-section address a:hover {
-  color:#00AEEF
+  color:#4682B4
 }
 
 #contact-form #message{
@@ -2633,7 +2644,7 @@ span.stButton_gradient,
   background-color: transparent;
   height: 52px;
   color: #fff;
-  border:2px solid #00aeef;
+  border:2px solid #4682B4;
 }
 
 #newsletter {
@@ -2722,4 +2733,30 @@ span.stButton_gradient,
   -webkit-box-shadow: 0 0 0 5px rgba(0,0,0,.1) inset;
   border-radius: 100%;
   margin: 10px 0;
+}
+
+/*image-croppe*/
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.rounded {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 100%;
+    background: center no-repeat;
+ 
 }

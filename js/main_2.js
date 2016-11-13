@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 	var timelines = $('.cd-horizontal-timeline'),
-		eventsMinDistance = 60;
+		eventsMinDistance = 100;
 
 	(timelines.length > 0) && initTimeline(timelines);
 
@@ -224,7 +224,7 @@ jQuery(document).ready(function($){
 	}
 
 	function daydiff(first, second) {
-	    return Math.abs(Math.round((second-first)));
+	    return Math.round((second-first));
 	}
 
 	function minLapse(dates) {
