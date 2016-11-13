@@ -2744,11 +2744,20 @@ span.stButton_gradient,
     margin-right: auto;
     position: relative;
     overflow: hidden;
+    
+    
+}
+
+.rounded {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 100%;
     background: center no-repeat;
-    
+ 
 }
