@@ -1,13 +1,11 @@
 ---
-layout: page
+layout: about
 title: About
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://90percenthumour.com"><b></b></a> is an archive of musings from different walks of life.</center>
-
 ## Features
 * Minimal, you can focus on your content
 * Responsive
