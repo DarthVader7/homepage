@@ -62,7 +62,7 @@ instagram:          ambrish.rawat
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-slack:             90percenthumour
+#slack:             90percenthumour
 # Gems
 gems:
   - jekyll-mentions
