@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
 
-We dabble with creativity in all shapes and forms. 90% Humour is where we archive these nmusings.   
+We dabble with creativity in all shapes and forms. 90% Humour is where we archive these nmusings.  Currently our blogs are hosted on wordpress (90percenthumour.wordpress.com) 
 
 ## Team
 - [Ambrish](http://90percenthumour.com/ambrish){: .btn}
